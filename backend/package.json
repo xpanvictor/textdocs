@@ -4,7 +4,7 @@
   "description": "live multiusers text editing website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "nodemon src/index.ts"
   },
   "keywords": [
     "text",
@@ -13,5 +13,10 @@
     "multiusers"
   ],
   "author": "xpanvictor",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
 }
